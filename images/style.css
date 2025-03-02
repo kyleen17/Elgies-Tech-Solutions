@@ -1,0 +1,194 @@
+
+  /* Hero Section */
+  .hero-section {
+    background: url('./images/scishipbackground.jpg');
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-family: homenaje;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #0000ff, 0 0 40px #0000ff;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #1e90ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #0056b3;
+  }
+  
+  
+  .cta-button:hover {
+    background: #0056b3;
+  }
+  
+
+  /* Services Section */
+  .services-section {
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    margin: 60px 0px;
+  }
+  
+  .services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .service-card {
+    padding: 2rem;
+    background: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Classes Section */
+  .classes-section {
+    padding: 4rem 2rem;
+    background: #05386bec;
+    color: white;
+    text-align: center;
+    margin: 60px 0px;
+  }
+  
+  .classes-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .classes-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 4rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 60px 0px;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .about-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: #00004b 2px solid;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-section img:hover {
+    transform: scale(1.1);
+  }
+  /* Contact Section */
+  .contact-section {
+    position: relative;
+    padding: 4rem 2rem;
+    background: url('images/Elgie’s/vecteezy_modern-cybersecurity-eye-on-technology-background_21253056.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 60px 0px;
+    overflow: hidden; /* Ensures ::before overlay fits the section */
+  }
+  
+  .contact-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    pointer-events: none; /* Ensures it doesn’t interfere with interactions */
+  }
+  
+  .contact-section h2,
+  .contact-form {
+    position: relative;
+    z-index: 2; /* Keeps content above the overlay */
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 0.75rem 1.5rem;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+
+  
