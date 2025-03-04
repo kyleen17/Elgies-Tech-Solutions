@@ -26,12 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
           },
           events: [
               {
-                  title: "Build Your Own PC",
+                  title: "This is a test event",
                   start: "2025-03-15",
                   description: "A workshop for building your own computer.",
               },
               {
-                  title: "Guardian & Me Coding Class",
+                  title: "This is another test event",
                   start: "2025-03-22",
                   description: "A beginner-friendly class for parents and kids.",
               }
