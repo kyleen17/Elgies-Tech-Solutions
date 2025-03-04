@@ -203,4 +203,85 @@
     background: #0056b3;
   }
 
+  /* Services Page */
+.services-section1 {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.services-section1 h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1e90ff;
+}
+
+.services-section1 p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.services-section1 h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #000;
+}
+
+.services-section1 ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.services-section1 ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.services-section1 ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.services-section1 a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.services-section1 a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Call to Action Button */
+.cta-button1 {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #1e90ff;
+  color: white !important;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button1:hover {
+  background: #0056b3;
+  color: white !important;
+
+}
   
