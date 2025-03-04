@@ -303,3 +303,46 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* // About Page // */
+
+.about-section1 {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-section1 h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1e90ff;
+}
+
+.about-section1 p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Matt's Profile Image */
+.about-image1 {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.about-image1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image1 img:hover {
+  transform: scale(1.1);
+} */
