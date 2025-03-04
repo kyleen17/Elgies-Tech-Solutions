@@ -84,7 +84,7 @@
   }
   
   /* Classes Section */
-  .classes-section {
+  .classes-section1 {
     padding: 4rem 2rem;
     background: #05386bec;
     color: white;
@@ -92,12 +92,12 @@
     margin: 60px 0px;
   }
   
-  .classes-section h2 {
+  .classes-section1 h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
 
-  .classes-section p {
+  .classes-section1 p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
