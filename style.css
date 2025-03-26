@@ -416,3 +416,65 @@
 .contact-form button:hover {
   background: #0056b3;
 }
+
+/* Class Announcement */
+
+.class-announcement {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-announcement h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1e90ff;
+}
+
+.class-announcement p {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.class-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.class-list li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.class-list li::before {
+  content: \"🖥️\";
+  position: absolute;
+  left: 0;
+}
+
+/* Waitlist Button */
+.waitlist-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.waitlist-button:hover {
+  background-color: #0056b3;
+}
