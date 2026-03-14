@@ -14,6 +14,34 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   typeText();
 
+  // Nav bar animation
+
+console.log("script.js is loading");
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-menu");
+const navLinks = document.querySelectorAll(".nav-menu a");
+
+console.log("menuToggle:", menuToggle);
+console.log("navMenu:", navMenu);
+
+if (menuToggle && navMenu) {
+  menuToggle.addEventListener("click", () => {
+    console.log("hamburger clicked");
+    menuToggle.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      menuToggle.classList.remove("active");
+      navMenu.classList.remove("active");
+    });
+  });
+} else {
+  console.log("Menu toggle or nav menu not found.");
+}
+
   // Calendar Setup
   var calendarEl = document.getElementById("calendar");
   if (calendarEl) {
